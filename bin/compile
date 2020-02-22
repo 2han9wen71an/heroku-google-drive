@@ -11,7 +11,7 @@ echo "-----> Installing rclone"
 BUILD_DIR=$1
 CACHE_DIR=$2
 VENDOR_DIR="vendor"
-FILE="gclone_1.51.5_Linux_i386.gz"
+FILE="gclone_1.51.5_Linux_x86_64.gz"
 DOWNLOAD_URL="https://github.com/jonntd/gclone/releases/download/v1.51.5/$FILE"
 
 mkdir -p "$CACHE_DIR"
